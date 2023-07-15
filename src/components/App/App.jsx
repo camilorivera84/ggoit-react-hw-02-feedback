@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import FeedbackWidget from './FeedbackWidget';
+import FeedbackWidget from '../FeedbackWidget/FeedbackWidget';
 
 function App() {
   const [selected, setSelected] = useState(null);
